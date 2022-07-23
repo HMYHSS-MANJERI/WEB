@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hmyhss Manjeri</title>
+        <link rel="shortcut icon" href="./Assets/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+        }
+    </script>
+    <body>
+        <header>
+            <div id="left">
+                <img src="./Assets/logo.png" alt="">
+                <div id="wrapper">
+                    <h1>HMYHSS MANJERI</h1>
+                    <h5>Hidayatul Muslimin Yatheemkhana Higher Secondary School</h5>
+                </div>
+            </div>
+            <div id="right">
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="">History</a>
+                    <a href="">Facilities</a>
+                    <a href="">Managment</a>
+                    <a href="">Activity</a>
+                    <a href="">Clubs</a>
+                    <a href="">Gallery</a>
+                    <a href="">Teacher's</a>
+                    <a href="">Timetable</a>
+                    <a href="">Contact</a>
+                    <a href="">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>                  
+            </div>
+        </header>
+        <div id="img"><img src="./Assets/1banner.jpg" alt=""></div>
+        <div id="content">
+
+        </div>
+    </body>
+</html>
