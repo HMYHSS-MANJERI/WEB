@@ -120,11 +120,65 @@ header #left #wrapper{
 footer{
   text-align: center;
   width: 100%;
-  height: 50px;
+  height: auto;
   background-color: #333;
   color: white;
 }
 footer p{
   padding-top: 20px;
 }
-/*end*/
+#trmain{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  
+}
+#trmain h4{
+  margin: 20px 10px;
+  background-color: rgb(230, 218, 52);
+  border-bottom: #333 2px solid;
+   
+}
+#trmain table{
+  
+border-collapse: collapse;
+font-weight: bolder;
+}
+#trmain table tr td{
+  width: 10%;
+  height: 40px;
+  border: #333 1px solid;
+}
+@media screen and (min-width:600px){
+  #trmain h4{
+    margin-left: 200px;
+  margin-right: 200px;
+  }
+  #trmain table{
+    margin-left: 200px;
+  margin-right: 200px;
+  }
+  #rumain{
+    margin-left: 200px;
+  margin-right: 200px;
+  }
+}
+#rumain{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+#rumain #left h1{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+#rumain #left ol li{
+  text-align: justify;
+  border: #333 0.5px solid;
+  margin-top: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px #333;
+  list-style: none;
+}
