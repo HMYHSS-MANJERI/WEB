@@ -123,6 +123,8 @@ footer{
   height: auto;
   background-color: #333;
   color: white;
+    padding-top: 20px;
+  padding-bottom: 20px;
 }
 footer p{
   padding-top: 20px;
